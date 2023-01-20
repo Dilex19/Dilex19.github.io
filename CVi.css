@@ -1,0 +1,306 @@
+body{
+    background-image: url(Fondo.jpg);
+}
+
+
+.navbar{
+    background-color: rgb(28, 27, 34) !important; 
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+}
+
+
+
+nav a{
+    color:white !important;
+}
+
+.navbar-toggler{
+    border-color: rgb(56, 56, 56) !important;
+}
+
+.nav-link{
+    border-radius: 17px;
+    margin: 0px 5px;
+    padding: 8px 14px !important;
+}
+
+.nav-link:hover{
+    background-color: rgb(40, 40, 48);
+    transition: 0.2s;
+}
+
+nav button:hover{
+    background-color: rgb(41, 41, 48);
+    transition: 0.2s;
+}
+
+.presentacion{
+    padding-top: 8%;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.inf-contac p{
+    margin-top: 16px;
+}
+
+.presentacion img{
+    border-radius: 40px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+    box-shadow: 2px 3px 5px rgb(69, 69, 69);
+}
+
+.preset{
+    width: 200px;
+    padding: auto;
+    margin: auto;
+}
+
+.boton-info-pres{
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.584);
+    padding: 5px 15px;
+    background-color: rgba(0, 0, 0, 0.023);
+    margin: 0px;
+}
+
+.boton-info-pres:hover{
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+.boton-info-pres img{
+    border: none;
+    box-shadow: none;
+    width: 18px;
+    height: 15px;
+    margin: 0px;
+}
+
+.inf-contac{
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-color:  rgba(255, 255,255, 0);
+    border-radius: 15px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0);
+    width: 300px;
+
+    position: absolute;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0);
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.inf-contacto_visible{
+    background-color:  rgba(255, 255,255);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0);
+    color: rgba(0, 0, 0);
+    transition: all 0.3s;
+}
+
+.fondo-acerca{
+    background-color: rgba(83, 68, 178, 0.968);
+}
+
+.acerca{
+    padding: 130px 0;
+    text-align: center;
+    max-width: 650px;
+    margin: auto;
+}
+
+.acerca hr{
+    max-width: 650px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.acerca p{
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 19px;
+}
+
+.fondo-flex-es{
+    padding: 1px 0px;
+}
+
+.flex-es{
+    display: flex;
+    width: 90%;
+    margin: 80px auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.caja-es{
+    max-width: 450px;
+    text-align: center;
+    margin: 50px;
+}
+
+.caja-es li{
+    font-size: 19px;
+}
+
+.background-final{
+    background-color: rgba(83, 68, 178, 0.968);
+}
+
+.habilidades{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0;
+}
+
+.flex-habi{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.caja-habi{
+    width: 200px;
+    height: 200px;
+    margin: 20px 20px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.conoci{
+    text-align: center;
+}
+
+.habilidades hr{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#contactame{
+    border-radius: 20px;
+    max-width: 900px;
+    background-color: rgb(253, 253, 253);
+    margin: auto;
+    margin-top: 70px;
+    padding: 30px 30px 50px 30px;
+    box-shadow: 2px 3px 24px rgb(36, 36, 36);
+}
+
+.contac-titulo{
+    text-align: center;
+}
+
+.fondo-contac{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+#nombre-form{
+    width: 400px;
+    margin: 10px;
+    margin-top: 0;
+}
+
+#email-form{
+    width: 400px;
+    margin: 10px;
+    margin-top: 0;
+}
+
+#mensaje-form{
+    max-width: 820px;
+    height: 50px;
+    margin: 10px;
+    margin-top: 0;
+}
+
+
+
+.form-label{
+    margin-left: 10px;
+}
+
+.float-conjunto{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 914px) {
+    #contactame{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .float-conjunto{
+        display: block;
+    }
+    #nombre-form{
+        width: 98%;
+        margin-right: 100px;
+    }
+    #email-form{
+        width: 98%;
+    }
+    #mensaje-form{
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-nav{
+        flex-direction: column;
+        position: fixed;
+        text-align: center;
+        overflow-y: auto;
+        width: 100%;
+        background-color: rgb(33, 32, 41);
+        left: 0;
+        right: 0;
+        padding-bottom: 20px;
+        top: -100%;
+        transition: all .3s;
+        z-index: 5;
+    }
+    .nav-item{
+        margin: 20px 0px;
+    }
+    .nav-item:first-child{
+        margin-top: 40px;
+    }
+
+    .navbar-nav_visble{
+        margin: 0px;
+        top:56px;
+        transition: top .3s;
+    }
+
+    .boton-info-pres:hover{
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .boton-info-pres:active{
+        color: rgba(0, 0, 0, 0.537);
+    }
+}
+
+
+footer{
+    background-color: rgb(28, 27, 34);
+    height: 42px;
+    padding-bottom: 2px;
+}
